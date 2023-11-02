@@ -1,4 +1,4 @@
-#calculate score
+#calculate score V.2
 mid_term = int(input('กรุณาใส่คะแนน mid_term:'))
 final_term = int(input('กรุณาใส่คะแนน fianla_term:'))
 homework = int(input('กรุณาใส่คะแนน homework:'))    
@@ -38,4 +38,5 @@ def greeting(grade):
         return 'Caution'
 announce = greeting(grade)
 print('คุณได้เกรด: {} ขอพูดว่า {}'.format(grade,announce))
+print('Thank You, Have a good luck')
 
